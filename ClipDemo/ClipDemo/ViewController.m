@@ -165,13 +165,19 @@ static NSTimeInterval kDuration =  0.4;
     [path11 addCurveToPoint: CGPointMake(263.42, 72.87) controlPoint1: CGPointMake(256.03, 75) controlPoint2: CGPointMake(260.73, 73.98)];
     [path11 addCurveToPoint: CGPointMake(268.37, 67.83) controlPoint1: CGPointMake(267.31, 71.26) controlPoint2: CGPointMake(268.07, 68.48)];
     [path11 addCurveToPoint: CGPointMake(268.37, 60.75) controlPoint1: CGPointMake(269.35, 65.68) controlPoint2: CGPointMake(269.39, 61.16)];
-    [path11 addCurveToPoint: CGPointMake(265.71, 62.68) controlPoint1: CGPointMake(267.51, 60.4) controlPoint2: CGPointMake(266.74, 62)];
-    [path11 addCurveToPoint: CGPointMake(261.95, 64.1) controlPoint1: CGPointMake(264.58, 63.44) controlPoint2: CGPointMake(264.14, 64.3)];
+    
+    [path11 addCurveToPoint: CGPointMake(261.95, 64.1)
+              controlPoint1: CGPointMake(264.58, 63.44)
+              controlPoint2: CGPointMake(264.14-2-1-1, 64.3)];
+    
+    
     [path11 addCurveToPoint: CGPointMake(256.08, 64.73) controlPoint1: CGPointMake(260.2, 63.95) controlPoint2: CGPointMake(257.51, 64.82)];
     [path11 addCurveToPoint: CGPointMake(252.08, 63.49) controlPoint1: CGPointMake(253.73, 64.57) controlPoint2: CGPointMake(252.08, 63.49)];
     [path11 addCurveToPoint: CGPointMake(249.15, 61.56) controlPoint1: CGPointMake(252.08, 63.49) controlPoint2: CGPointMake(250.52, 63.02)];
     [path11 addCurveToPoint: CGPointMake(247.17, 57.99) controlPoint1: CGPointMake(248.17, 60.52) controlPoint2: CGPointMake(247.3, 58.48)];
     [path11 addCurveToPoint: CGPointMake(247.85, 52.93) controlPoint1: CGPointMake(246.73, 56.3) controlPoint2: CGPointMake(247.85, 52.93)];
+    
+    
     [path11 addCurveToPoint: CGPointMake(215.09, 49.59) controlPoint1: CGPointMake(247.85, 52.93) controlPoint2: CGPointMake(220.18, 52.93)];
     [path11 addCurveToPoint: CGPointMake(196.06, 39.05) controlPoint1: CGPointMake(212.77, 48.07) controlPoint2: CGPointMake(203.93, 41.4)];
     [path11 addCurveToPoint: CGPointMake(178.15, 37.84) controlPoint1: CGPointMake(186.63, 36.24) controlPoint2: CGPointMake(178.15, 37.84)];
@@ -323,7 +329,7 @@ static NSTimeInterval kDuration =  0.4;
     
     UIBezierPath* path25 = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(260, 234, 8, 6)];
 
-    UIBezierPath* path26 = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(250, 52, 14, 8)];
+    UIBezierPath* path26 = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(250+2, 52, 13, 8)];
 
     UIBezierPath* path27 = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(196, 48, 7, 6)];
     
